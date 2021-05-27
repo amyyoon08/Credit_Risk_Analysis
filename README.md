@@ -6,7 +6,7 @@
 
 ## Results
 
-- RandomOverSampler algorithms:
+RandomOverSampler algorithms:
 
 ![Optional Text](Resources/Random_Oversampling.PNG)
 
@@ -16,7 +16,8 @@
 * The low risk precision is 100% and the recall score is 60% 
 
 
-- SMOTE algorithms
+
+SMOTE algorithms
 
 ![Optional Text](Resources/SMOTE_Oversampling.PNG)
 
@@ -26,7 +27,8 @@
 * The low risk precision is 100% and the recall score is 69% 
 
 
-- ClusterCentroids
+
+ClusterCentroids
 
 ![Optional Text](Resources/Undersampling.PNG)
 
@@ -36,7 +38,8 @@
 * The low risk precision is 100% and the recall score is 41% 
 
 
-- SMOTEENN
+
+SMOTEENN
 
 ![Optional Text](Resources/Combination_Sampling.PNG)
 
@@ -46,7 +49,8 @@
 * The low risk precision is 100% and the recall score is 57% 
 
 
-- BalancedRandomForestClassifier
+
+BalancedRandomForestClassifier
 
 ![Optional Text](Resources/BRFC.PNG)
 
@@ -56,7 +60,8 @@
 * The low risk precision is 100% and the recall score is 87% 
 
 
-- EasyEnsembleClassifier
+
+EasyEnsembleClassifier
  
 ![Optional Text](Resources/EEAC.PNG)
 
@@ -66,7 +71,7 @@
 * The low risk precision is 100% and the recall score is 94% 
 
 
-##Summary
+## Summary
 
 - The first four models don't show high number in balanced accuracy score with lower sensitivity
 - The best one that might be recommened is the Easy Ensemble Classifier as it shows the highest numbers in balanced accuracy score, precision and recall score
